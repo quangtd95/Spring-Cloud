@@ -1,0 +1,17 @@
+server:
+  port: 7777
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: currencyConversion
+#          uri: http://localhost:8100/
+#          predicates:
+#            - Path=/currency-converter/**
+#        - id: forex
+#          uri: http://localhost:8000/
+#          predicates:
+#            - Path=/currency-exchange/**
+spring:
+  application:
+    name: gateway
